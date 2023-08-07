@@ -5,7 +5,7 @@ let a = arr.map((value, index, array) => {
   return value + index
 })
 // console.log(arr)
-s
+
 // Array filter method
 let arr2 = [45, 23, 21, 0, 3, 5]
 let a2 = arr2.filter((a) => {
