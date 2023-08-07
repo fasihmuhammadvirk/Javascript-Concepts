@@ -135,8 +135,26 @@ console.log(deletedValues);
 let newNum = num2.slice(3);
 console.log(newNum);
 let newNum2 = num2.slice(3, 5);
-console.log(newNum1);
+console.log(newNum2);
 
 
 
 // ** Object Methods ** // 
+
+//this 
+const an_obj = {
+
+        firstname:' faish muhammad',
+        lastname:' virk',
+        greet: function greet(){
+            return "Hello"
+        },
+
+        greetwithname: function greetname(){
+             return this.greet() + this.firstname + this.lastname 
+        }
+
+
+    };
+
+console.log("The object is",an_obj.greetwithname());
